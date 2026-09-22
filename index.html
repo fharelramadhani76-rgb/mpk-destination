@@ -598,11 +598,11 @@ const $ = id => document.getElementById(id);
 
 // URL Web App Google Apps Script Anda.
 // Setelah Code.gs di-deploy sebagai Web App, tempel URL /exec di sini.
-const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbyxt5ky2_F0pixqZx0Z_D81-9alRiJAtOkPLqALmVa4SyzV77TSocngjSQ-Z4fxifYHpw/exec';
+const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbxXL7HIjEaoPZG4EvRaksYMOwI4XdSXRxsyRqG3OzzBFu0Fr9nxjEPcNFSUHZT-PL8tRw/exec';
 
 async function apiCall(action, payload={}){
-  if(!GAS_API_URL || GAS_API_URL.includes('PASTE_URL')){
-    throw new Error('GAS_API_URL belum diisi. Tempel URL Web App Apps Script ke Index.html.');
+  if(!GAS_API_URL || GAS_API_URL.includes('https://script.google.com/macros/s/AKfycbxXL7HIjEaoPZG4EvRaksYMOwI4XdSXRxsyRqG3OzzBFu0Fr9nxjEPcNFSUHZT-PL8tRw/exec')){
+    throw new Error('https://script.google.com/macros/s/AKfycbxXL7HIjEaoPZG4EvRaksYMOwI4XdSXRxsyRqG3OzzBFu0Fr9nxjEPcNFSUHZT-PL8tRw/exec');
   }
 
   const body = JSON.stringify({action, ...payload});
