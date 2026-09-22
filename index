@@ -19,8 +19,8 @@
  */
 
 const CONFIG = {
-  SPREADSHEET_ID: '', // Kosong = Spreadsheet yang terikat ke project.
-  DRIVE_FOLDER_ID: '', // Isi ID folder Drive untuk upload foto.
+  SPREADSHEET_ID: '16dFVrtay82pF2ITtZROUSvdYAYx4mJwfKgmobkH3_Rw', // Kosong = Spreadsheet yang terikat ke project.
+  DRIVE_FOLDER_ID: '16_AbGP9gnv4udV4SP8QejiOSFqz4nsXS', // Isi ID folder Drive untuk upload foto.
   APP_NAME: 'MPK Destination',
   SCHOOL_NAME: 'SMAN 1 Kedamean'
 };
